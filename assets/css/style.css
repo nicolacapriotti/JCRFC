@@ -1,0 +1,59 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: #C5B358;
+}
+header {
+  background: #111;
+  padding: 1rem;
+  text-align: center;
+}
+nav a {
+  color: #C5B358;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav {
+  margin-top: 1rem;
+}
+h1, h2 {
+  color: #C5B358;
+}
+.hero {
+  background: url('../images/AABX1524.JPG') center/cover no-repeat;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 2px 4px #000;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  background: rgba(0,0,0,0.6);
+  padding: 1rem;
+}
+section {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+footer {
+  background: #111;
+  color: #C5B358;
+  text-align: center;
+  padding: 1rem;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+.gallery img {
+  width: 100%;
+  border: 2px solid #C5B358;
+  cursor: pointer;
+}
